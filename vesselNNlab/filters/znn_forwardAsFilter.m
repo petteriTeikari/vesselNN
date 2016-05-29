@@ -1,0 +1,1 @@
+function znn_forwardAsFilter(im, imPath, param)
