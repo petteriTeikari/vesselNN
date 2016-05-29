@@ -1,0 +1,12 @@
+[submodule "vesselNNlab/3rdParty/EvaluateSegmentation"]
+	path = vesselNNlab/3rdParty/EvaluateSegmentation
+	url = https://github.com/Visceral-Project/EvaluateSegmentation.git
+[submodule "vesselNNlab/3rdParty/edges"]
+	path = vesselNNlab/3rdParty/edges
+	url = https://github.com/pdollar/edges.git
+[submodule "vesselNNlab/3rdParty/toolbox"]
+	path = vesselNNlab/3rdParty/toolbox
+	url = https://github.com/pdollar/toolbox.git
+[submodule "vesselNNlab/3rdParty/latexTable"]
+	path = vesselNNlab/3rdParty/latexTable
+	url = https://github.com/eliduenisch/latexTable.git
