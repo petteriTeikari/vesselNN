@@ -80,3 +80,7 @@ And do not forget to cite the original ZNN paper that inspired this:
 
 * Zlateski, A., Lee, K. & Seung, H. S. (2015) ZNN - A Fast and Scalable Algorithm for Training 3D Convolutional Networks on Multi-Core and Many-Core Shared Memory Machines. [arXiv:1510.06706](http://arxiv.org/abs/1510.06706).
 * Lee, K., Zlateski, A., Vishwanathan, A. & Seung, H. S. (2015) Recursive Training of 2D-3D Convolutional Networks for Neuronal Boundary Detection. [arXiv:1508.04843](http://arxiv.org/abs/1508.04843).
+
+For related papers, you could see the volumetric convolutional network by Merkow et al. (2016) for vascular boundary detection that wa spublished around the same time as this paper:
+
+* Merkow, J., Kriegman, D., Marsden, A. and Tu, Z. (2016). Dense Volume-to-Volume Vascular Boundary Detection. arXiv preprint [arXiv:1605.08401](http://arxiv.org/abs/1605.08401).
