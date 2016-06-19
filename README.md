@@ -12,7 +12,7 @@ The structure of the repository is as following
 
 * `configs` contains the config files specifying the network parameters, locations of the data, etc. for each framework currently only having ZNN configs. In the future, there are plans to provide scripts for common frameworks such as TensorFlow, Theano and Caffe.
 * `vesselNN_dataset` contains the dataset provided with the paper consisting of 12 volumetric vasculature stacks obtained using two-photon microsope. 
-* `vesselNNlab` contains some Matlab helper functions to post-process and analyze the ZNN results. * 
+* `vesselNNlab` contains some Matlab helper functions to post-process and analyze the ZNN results.
 * `znn-release` the actual deep learning framework [ZNN](https://github.com/seung-lab/znn-release/) developed at MIT/Princeton.
 
 ### ZNN setup
@@ -25,6 +25,12 @@ The ZNN is working only under MacOS/Linux (Ubuntu 14.04.3 LTS seems to work with
 * [BoostNumpy](http://github.com/ndarray/Boost.NumPy) (clone from Github)
 * [jemalloc](http://www.canonware.com/jemalloc/) (`libjemalloc-dev`)
 * [tifffile](https://pypi.python.org/pypi/tifffile) (`python-tifffile`)
+
+#### Compilation
+
+1. You need to run `make` from the `znn-release` root to compile the `malis_test.cpp`
+
+2. If you want to use the Python interface for the ZNN, you need to go to the `znn-release/python/core` and modify possibly the `Makefile` according to your library locations. Then you need to run `make` to compile `pyznn.cpp`.
 
 ### Xeon Phi acceleration
 
