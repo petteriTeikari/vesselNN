@@ -13,3 +13,6 @@
 [submodule "vesselNN_dataset"]
 	path = vesselNN_dataset
 	url = https://github.com/petteriTeikari/vesselNN_dataset.git
+[submodule "znn-release"]
+	path = znn-release
+	url = https://github.com/seung-lab/znn-release
