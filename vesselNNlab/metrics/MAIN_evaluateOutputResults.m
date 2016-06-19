@@ -108,7 +108,7 @@ function MAIN_evaluateOutputResults()
                     % used within the segmentation subfunction
                     
                     % TODO!
-                    % segmentation{network, file} = segment_networkOutput(im{file}, out{network, file}, fileOut, mask_folder, param_segment);                    
+                    segmentation{network, file} = segment_networkOutput(im{file}, out{network, file}, fileOut, mask_folder, param_segment);                    
                     
                 
             end
@@ -140,7 +140,7 @@ function MAIN_evaluateOutputResults()
                 gtOnDisk = fullfile(folderIn, nameIn);
                 
                 % TODO!
-                % metrics{network, file} = segment_evaluateQuality(gt{file}, gtOnDisk, segmentation{network, file}, param_metrics);
+                metrics{network, file} = segment_evaluateQuality(gt{file}, gtOnDisk, segmentation{network, file}, param_metrics);
                 
                 % ERRORS - Possible
                 
@@ -159,7 +159,7 @@ function MAIN_evaluateOutputResults()
                 % calls are not sequential
                 
                 [network file]
-                %save(['metricsLoop_net', num2str(network), '_file', num2str(file), '.mat'], 'metrics')
+                save(['metricsLoop_net', num2str(network), '_file', num2str(file), '.mat'], 'metrics')
                 disp('loop .mat save')
                                 
             end
@@ -168,13 +168,13 @@ function MAIN_evaluateOutputResults()
             
         end
         toc
-        % save('metrics.mat', 'metrics', 'segmentation')
+        save('metrics.mat', 'metrics', 'segmentation')
         
     %% CREATE MATRICES
     
         %save('metrics.mat', 'metrics', 'segmentation')
         %save(fullfile('C:\Users\Petteri\Desktop', 'allSegmVariables.mat'))
-        load(fullfile('C:\Users\Petteri\Desktop', 'allSegmVariables.mat'))
+        %load(fullfile('C:\Users\Petteri\Desktop', 'allSegmVariables.mat'))
         load('metrics.mat')
         segment_createDataMatricesOfMetrics(segmentation, metrics, out_folder)
         
