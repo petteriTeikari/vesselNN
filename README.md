@@ -55,7 +55,7 @@ Note (June 2016)! The instructions for this part at `znn-release` seem to be out
 
 ### Defining config files
 
-Open for example [https://github.com/petteriTeikari/vesselNN/blob/master/configs/ZNN_configs/config_VD2D3D_tanh.cfg](/configs/ZNN_configs/config_VD2D3D_tanh.cfg), and you see the main paths that set up the network architecture and the dataset:
+Open for example [config_VD2D3D_tanh.cfg](/configs/ZNN_configs/config_VD2D3D_tanh.cfg), and you see the main paths that set up the network architecture and the dataset:
 
 ```
 # specification file of network architecture
@@ -66,7 +66,7 @@ fdata_spec = ../../configs/ZNN_configs/datasetPaths/dataset_forVD2D3D.spec
 
 If you are familiar with convolutional network architecture construction, the file [VD2D3D_tanh.znn](https://github.com/petteriTeikari/vesselNN/blob/master/configs/ZNN_configs/networks/VD2D3D_tanh.znn) is rather self-explanatory
 
-[dataset_forVD2D3D.spec](https://github.com/petteriTeikari/vesselNN/blob/master/configs/ZNN_configs/datasetPaths/dataset_forVD2D.spec) defines path for image/label files of your dataset. For example images 1-12 refer to the images from the microscope, 13-24 refer to the output images from the VD2D part of the recursive "two-stage" approach of ZNN. The outputs of the VD2D part are provided in the [https://github.com/petteriTeikari/vesselNN_dataset/tree/4daf46cee49f411b759f04ff92b92dd1dbbc25b4/experiments/VD2D_tanh](dataset repository), and can be used for re-training of the VD2D3D stage, or if you may you can obtain new VD2D outputs for your dataset if you wish.
+[dataset_forVD2D3D.spec](https://github.com/petteriTeikari/vesselNN/blob/master/configs/ZNN_configs/datasetPaths/dataset_forVD2D.spec) defines path for image/label files of your dataset. For example images 1-12 refer to the images from the microscope, 13-24 refer to the output images from the VD2D part of the recursive "two-stage" approach of ZNN. The outputs of the VD2D part are provided in the [dataset repository](https://github.com/petteriTeikari/vesselNN_dataset/tree/4daf46cee49f411b759f04ff92b92dd1dbbc25b4/experiments/VD2D_tanh), and can be used for re-training of the VD2D3D stage, or if you may you can obtain new VD2D outputs for your dataset if you wish.
 
 In the `.cfg` files you specify your typical hyperparameters for training, what files to use for training and testing, whether to use data augmentation, how many CPU cores you use, where to save the output files, whether to correct class imbalance. Special thing in ZNN is that you can optimize your training/inference on your chosen convolution, i.e. if there is a bigger overhead in doing Fourier transforms with FFT over doing spatial domain convolutions. As a practical note, the optimization might sometime give errors, so then you could just use `force_fft = yes`
 
