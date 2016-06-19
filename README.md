@@ -1,5 +1,7 @@
 # vesselNN
 
+This a repository for volumetric vessel segmentation using convolutional network based on ZNN framework as decribed in our arXiv paper [arXiv:1606.02382](http://arxiv.org/abs/1606.02382) (see below for full citation). The repository comes with an [open-source dataset](https://github.com/petteriTeikari/vesselNN_dataset/tree/4daf46cee49f411b759f04ff92b92dd1dbbc25b4) with dense voxel-level annotations for vasculature that we hope that stimulate further research on vascular segmentation using deep learning networks.
+
 ## Getting Started
 
 Clone this repository with all the submodules (remove the `--recursive` if you don't want the datasets and the submodules)
