@@ -91,68 +91,6 @@ fnames = ../../../vesselNN_dataset/denoised/santos2015_tumor_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
-# RECURSIVE OUTPUTS from VD2D
-[image13]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample1_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image14]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample2_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image15]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample3_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image16]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample4_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image17]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample5_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image18]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample6_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image19]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample7_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image20]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample8_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image21]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample9_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image22]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample10_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image23]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample11_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-[image24]
-fnames = ../../../../MEGA/experiments/VD2D_tanh/out_sample12_output_0.tif
-pp_types = symetric_rescale
-is_auto_crop = yes
-
-
 # LABELS
 [label1]
 fnames = ../../../vesselNN_dataset/labels/burgess2014_bbbDisruption_labels_v1.tif
@@ -229,60 +167,48 @@ fmasks =
 # INPUT-OUTPUT DEFINITIONS
 [sample1]
 input = 1
-input-r = 13
 output = 1
 
 [sample2]
 input = 2
-input-r = 14
 output = 2
 
 [sample3]
 input = 3
-input-r = 15
 output = 3
 
 [sample4]
 input = 4
-input-r = 16
 output = 4
 
 [sample5]
 input = 5
-input-r = 17
 output = 5
 
 [sample6]
 input = 6
-input-r = 18
 output = 6
 
 [sample7]
 input = 7
-input-r = 19
 output = 7
 
 [sample8]
 input = 8
-input-r = 20
 output = 8
 
 [sample9]
 input = 9
-input-r = 21
 output = 9
 
 [sample10]
 input = 10
-input-r = 22
 output = 10
 
 [sample11]
 input = 11
-input-r = 23
 output = 11
 
 [sample12]
 input = 12
-input-r = 24
 output = 12
