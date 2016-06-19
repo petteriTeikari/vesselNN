@@ -28,7 +28,12 @@ The ZNN is working only under MacOS/Linux (Ubuntu 14.04.3 LTS seems to work with
 
 ### Xeon Phi acceleration
 
-It is possible to accelerate the framework using the [Xeon Phi accelerator](http://www.intel.co.uk/content/www/uk/en/processors/xeon/xeon-phi-detail.html) which have come down in price recently (e.g. see this [Reddit thread](https://www.reddit.com/r/buildapcsales/comments/2kmlxp/other_intel_xeon_phi_coprocessor_31s1p_195_msrp/). However, it should be noted that the user-friendliness of Xeon Phi is nowhere near of the near "plug'n'play" acceleration provided by NVIDIA GPUs for example. You first need a modern motherboard (see [recommended motherboards](https://streamcomputing.eu/blog/2015-08-01/xeon-phi-knights-corner-compatible-motherboards/) by Stream Computing), and you will need to obtain the [Intel Math Kernel Library (MKL)](https://software.intel.com/en-us/intel-mkl) that is free for non-commercial use.
+It is possible to accelerate the framework using the [Xeon Phi accelerator](http://www.intel.co.uk/content/www/uk/en/processors/xeon/xeon-phi-detail.html) which have come down in price recently (e.g. see this [Reddit thread](https://www.reddit.com/r/buildapcsales/comments/2kmlxp/other_intel_xeon_phi_coprocessor_31s1p_195_msrp/). However, it should be noted that the user-friendliness of Xeon Phi is nowhere near of the near "plug'n'play" acceleration provided by NVIDIA GPUs for example. You first need a modern motherboard (see [recommended motherboards](https://streamcomputing.eu/blog/2015-08-01/xeon-phi-knights-corner-compatible-motherboards/) by Stream Computing), and you will need to obtain the [Intel Math Kernel Library (MKL)](https://software.intel.com/en-us/intel-mkl) that is free for non-commercial use. For example the Asus WS series (e.g. [X99-E WS
+Overview](https://www.asus.com/uk/Motherboards/X99E_WS/) seem to support the Xeon Phi accelerators based on [Puget Systems](https://www.pugetsystems.com/labs/hpc/Will-your-motherboard-work-with-Intel-Xeon-Phi-490/)
+
+## The use of framework
+
+
 
 ## References
 
