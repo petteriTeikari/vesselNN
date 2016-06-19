@@ -53,7 +53,9 @@ and to do the inference (forward pass):
 python forward.py -c ../../configs/ZNN_configs/config_VD2D_tanh.cfg
 ```
 
-Note (June 2016)! The instructions for this part at `znn-release` seem to be outdated without the needed `-c` flag as updated to [https://github.com/seung-lab/znn-release/blob/master/python/train.py](train.py).
+The interface at the moment does not allow new images outside the training set to be used for quick inference testing. You need to add your own images to the `.spec` file without the label mask to try the generalization performance of the network.
+
+Note (June 2016)! The instructions for this part at `znn-release` seem to be outdated without the needed `-c` flag as updated to [train.py](https://github.com/seung-lab/znn-release/blob/master/python/train.py).
 
 ### Defining config files
 
