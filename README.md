@@ -95,3 +95,6 @@ For related papers, you could see the volumetric convolutional network by Merkow
 
 You probably have not cloned [BoostNumpy](http://github.com/ndarray/Boost.NumPy) to `/python` folder of `znn-release` and built and install with `scons` or `cmake`.
 
+### ImportError: libboost_numpy.so: cannot open shared object file: No such file or directory
+
+Related to the [BoostNumpy](http://github.com/ndarray/Boost.NumPy) as the `pyznn` cannot figure out where the file is, the following may fix the situation (given that your libboost_numpy.so is there, see the following [Discussion](https://github.com/ndarray/Boost.NumPy/issues/43) ) `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib`
