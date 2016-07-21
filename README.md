@@ -24,7 +24,7 @@ The best idea is to follow the documentation from [ZNN repository](https://githu
 The ZNN is working  **only underMacOS/Linux** (Ubuntu 14.04.3 LTS seems to work with no problems), and has the following prequisities:
 * [fftw](http://www.fftw.org/) (`libfftw3-dev`)
 * [boost](http://www.boost.org/) (`libboost-all-dev`)
-* [BoostNumpy](http://github.com/ndarray/Boost.NumPy) (clone from Github to `/python`)
+* [BoostNumpy](http://github.com/ndarray/Boost.NumPy) (clone from Github to `/python`, and build&install either with `scons` or `cmake`)
 * [jemalloc](http://www.canonware.com/jemalloc/) (`libjemalloc-dev`)
 * [tifffile](https://pypi.python.org/pypi/tifffile) (`python-tifffile`)
 
