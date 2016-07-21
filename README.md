@@ -88,3 +88,10 @@ And do not forget to cite the original ZNN paper that inspired this:
 For related papers, you could see the volumetric convolutional network by Merkow et al. (2016) for vascular boundary detection that wa spublished around the same time as this paper:
 
 * Merkow, J., Kriegman, D., Marsden, A. and Tu, Z. (2016). Dense Volume-to-Volume Vascular Boundary Detection. arXiv preprint [arXiv:1605.08401](http://arxiv.org/abs/1605.08401).
+
+## References
+
+### /usr/bin/ld: cannot find -lboost_numpy
+
+You probably have not cloned [BoostNumpy](http://github.com/ndarray/Boost.NumPy) to `/python` folder of `znn-release` and built and install with `scons` or `cmake`.
+
