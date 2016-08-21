@@ -32,134 +32,134 @@
 
 # DENOISED MICROSCOPE STACKS
 [image1]
-fnames = ../../../vesselNN_dataset/denoised/burgess2014_bbbDisruption_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/burgess2014_bbbDisruption_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image2]
-fnames = ../../../vesselNN_dataset/denoised/burgess2014_lowerRes_hiSNR_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/burgess2014_lowerRes_hiSNR_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image3]
-fnames = ../../../vesselNN_dataset/denoised/burgess2014_noisySparseVessels_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/burgess2014_noisySparseVessels_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image4]
-fnames = ../../../vesselNN_dataset/denoised/burgess2014_tgMouse_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/burgess2014_tgMouse_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image5]
-fnames = ../../../vesselNN_dataset/denoised/poon2015_BBB_Leakage_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/poon2015_BBB_Leakage_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image6]
-fnames = ../../../vesselNN_dataset/denoised/poon2015_BBB_noLeakage_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/poon2015_BBB_noLeakage_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image7]
-fnames = ../../../vesselNN_dataset/denoised/poon2015_mixedSize1_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/poon2015_mixedSize1_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image8]
-fnames = ../../../vesselNN_dataset/denoised/poon2015_mixedSize2_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/poon2015_mixedSize2_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image9]
-fnames = ../../../vesselNN_dataset/denoised/poon2015_plaqueVessels_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/poon2015_plaqueVessels_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image10]
-fnames = ../../../vesselNN_dataset/denoised/santos2015_lowContrastVessels_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/santos2015_lowContrastVessels_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image11]
-fnames = ../../../vesselNN_dataset/denoised/santos2015_mixedSizelowContrastVessels_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/santos2015_mixedSizelowContrastVessels_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 [image12]
-fnames = ../../../vesselNN_dataset/denoised/santos2015_tumor_BM4D_denoised.tif
+fnames =../../vesselNN_dataset/denoised/santos2015_tumor_BM4D_denoised.tif
 pp_types = standard2D
 is_auto_crop = yes
 
 # LABELS
 [label1]
-fnames = ../../../vesselNN_dataset/labels/burgess2014_bbbDisruption_labels_v1.tif
+fnames =../../vesselNN_dataset/labels/burgess2014_bbbDisruption_labels_v1.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label2]
-fnames = ../../../vesselNN_dataset/labels/burgess2014_lowerRes_hiSNR_labels_v1.tif
+fnames =../../vesselNN_dataset/labels/burgess2014_lowerRes_hiSNR_labels_v1.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label3]
-fnames = ../../../vesselNN_dataset/labels/burgess2014_noisySparseVessels_labels_v1.tif
+fnames =../../vesselNN_dataset/labels/burgess2014_noisySparseVessels_labels_v1.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label4]
-fnames = ../../../vesselNN_dataset/labels/burgess2014_tgMouse_labels_v1.tif
+fnames =../../vesselNN_dataset/labels/burgess2014_tgMouse_labels_v1.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label5]
-fnames = ../../../vesselNN_dataset/labels/poon2015_BBB_Leakage_manualLabels_v2.tif
+fnames =../../vesselNN_dataset/labels/poon2015_BBB_Leakage_manualLabels_v2.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label6]
-fnames = ../../../vesselNN_dataset/labels/poon2015_BBB_noLeakage_manualLabel_v2.tif
+fnames =../../vesselNN_dataset/labels/poon2015_BBB_noLeakage_manualLabel_v2.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label7]
-fnames = ../../../vesselNN_dataset/labels/poon2015_mixedSize1_manualLabel_v2.tif
+fnames =../../vesselNN_dataset/labels/poon2015_mixedSize1_manualLabel_v2.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label8]
-fnames = ../../../vesselNN_dataset/labels/poon2015_mixedSize2_labels_v1.tif
+fnames =../../vesselNN_dataset/labels/poon2015_mixedSize2_labels_v1.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label9]
-fnames = ../../../vesselNN_dataset/labels/poon2015_plaqueVessels_label_underSegmented.tif
+fnames =../../vesselNN_dataset/labels/poon2015_plaqueVessels_label_underSegmented.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label10]
-fnames = ../../../vesselNN_dataset/labels/santos2015_lowContrastVessels_labelsMarc.tif
+fnames =../../vesselNN_dataset/labels/santos2015_lowContrastVessels_labelsMarc.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label11]
-fnames = ../../../vesselNN_dataset/labels/santos2015_mixedSizelowContrastVessels_labelsMarc.tif
+fnames =../../vesselNN_dataset/labels/santos2015_mixedSizelowContrastVessels_labelsMarc.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
 
 [label12]
-fnames = ../../../vesselNN_dataset/labels/santos2015_tumor_initLabel_v1.tif
+fnames =../../vesselNN_dataset/labels/santos2015_tumor_initLabel_v1.tif
 pp_types = binary_class
 is_auto_crop = yes
 fmasks =
